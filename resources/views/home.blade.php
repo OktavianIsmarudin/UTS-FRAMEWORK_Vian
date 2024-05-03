@@ -28,19 +28,21 @@ initial-scale=1.0">
                             class="nav-link">barang List</a></li>
                 </ul>
                 <hr class="d-lg-none text-white-50">
-                <a href="{{ route('profile') }}" class="btn Wbtn-outline-light my-2 ms-md-auto"><i
-                        class="bi-person-circle me-1"></i>
-                    My Profile</a>
             </div>
         </div>
     </nav>
     <div class="container mt-4">
-        <h4>{{ $pageTitle }}</h4>
+        <h4>Laravel UTS - Master Barang</h4>
         <hr>
         <div class="d-flex align-items-center py-2 px-4 bg-light
 rounded-3 border">
-            <div class="bi-house-fill me-3 fs-1"></div>
-            <h4 class="mb-0">Well done! this is {{ $pageTitle }}.</h4>
+<div class="card" style="width: 18rem;">
+
+    <div class="card-body"><img src="{{ Vite::asset('resources/images/profile.jpg') }}"" alt="">
+
+      <p class="card-text">Oktavian Ismarudian - 1204220143</p>
+    </div>
+  </div>
         </div>
     </div>
     @vite('resources/js/app.js')

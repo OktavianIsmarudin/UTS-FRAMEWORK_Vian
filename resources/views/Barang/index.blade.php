@@ -28,10 +28,6 @@ initial-scale=1.0">
                             barang</a></li>
                 </ul>
                 <hr class="d-lg-none text-white-50">
-                <a href="{{ route('profile') }}" class="btn
-btn-outline-light my-2 ms-md-auto"><i
-                        class="bi-person-circle me-1"></i>
-                    My Profile</a>
             </div>
         </div>
     </nav>
